@@ -10,5 +10,11 @@ namespace Clean.EmailValidator.Test
         {
             Assert.That(EmailValidator.Validate("@mail.com"), Is.EqualTo(false));
         }
+
+        [Test, Description("ensure EmailValidator returns false if an empty email is provided.")]
+        public void EmailValidator_EmptyEmail_ReturnsFalse()
+        {
+            Assert.That(EmailValidator.Validate(""), Is.EqualTo(false));
+        }
     }
 }
