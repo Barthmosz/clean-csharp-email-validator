@@ -16,5 +16,11 @@ namespace Clean.EmailValidator.Test
         {
             Assert.That(EmailValidator.Validate(""), Is.EqualTo(false));
         }
+
+        [Test, Description("ensure EmailValidator returns true if a valid email is provided.")]
+        public void EmailValidator_ValidEmail_ReturnsTrue()
+        {
+            Assert.That(EmailValidator.Validate("valid_email@mail.com"), Is.EqualTo(true));
+        }
     }
 }
