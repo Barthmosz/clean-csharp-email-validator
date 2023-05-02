@@ -6,7 +6,7 @@ namespace Clean.EmailValidator
     {
         public static bool Validate(string email)
         {
-            string emailRegex = "/^[\\w-.]+@([\\w-]+\\.)+[\\w-]{2,4}$/g";
+            string emailRegex = "^[\\w-.]+@([\\w-]+\\.)+[\\w-]{2,4}$";
             return Regex.IsMatch(email, emailRegex);
         }
     }
