@@ -13,6 +13,7 @@
     <RepositoryType>git</RepositoryType>
     <PackageTags>Email;Validator;Validations</PackageTags>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
