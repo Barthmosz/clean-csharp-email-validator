@@ -6,7 +6,7 @@
     <Title>Clean Email Validator</Title>
     <Authors>Barthmosz</Authors>
     <Company></Company>
-    <Description>An simple and clean email validator.</Description>
+    <Description>A simple and clean email validator.</Description>
     <PackageProjectUrl>https://github.com/Barthmosz/clean-csharp-email-validator/tree/main</PackageProjectUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/Barthmosz/clean-csharp-email-validator</RepositoryUrl>
