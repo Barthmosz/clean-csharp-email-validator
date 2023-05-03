@@ -9,7 +9,7 @@
     <Description>An simple and clean email validator.</Description>
     <PackageProjectUrl>https://github.com/Barthmosz/clean-csharp-email-validator/tree/main</PackageProjectUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <RepositoryUrl>https://github.com/Barthmosz/clean-csharp-email-validator/tree/main</RepositoryUrl>
+    <RepositoryUrl>https://github.com/Barthmosz/clean-csharp-email-validator</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>Email;Validator;Validations</PackageTags>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
